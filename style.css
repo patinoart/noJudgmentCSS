@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+a.primaryButton {
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    border: 3px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bowlby One', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #C0B6FF;
+    text-align:center;
+    transition: all 0.2s;
+    box-shadow: -4px 4px 0px #000000;
+}
+
+a.primaryButton:hover{
+    background-color: #FAFF94;
+}
+
+a.secondaryButton {
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    border: 3px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bowlby One', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: none;
+    text-align:center;
+    transition: all 0.2s;
+    box-shadow: -4px 4px 0px #000000;
+}
+
+a.secondaryButton:hover{
+    background-color: #FAFF94;
+}
